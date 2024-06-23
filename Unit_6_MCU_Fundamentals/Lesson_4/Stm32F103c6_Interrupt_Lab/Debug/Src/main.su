@@ -1,0 +1,4 @@
+main.c:44:5:main	8	static
+main.c:69:6:clock_init	4	static
+main.c:78:6:EXTI0_IRQHandler	4	static
+main.c:86:6:GPIO_Pin13_Output_Init	4	static

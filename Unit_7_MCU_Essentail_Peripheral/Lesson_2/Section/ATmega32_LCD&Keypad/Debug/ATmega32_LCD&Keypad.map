@@ -1,0 +1,615 @@
+Archive member included to satisfy reference by file (symbol)
+
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o (exit)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+                              ./Keypad.o (__do_copy_data)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              ./LCD.o (__ltsf2)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              ./LCD.o (__fixunssfsi)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o) (__fp_splitA)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o) (__fp_zero)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              ./LCD.o (__gtsf2)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              ./LCD.o (__mulsf3)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_inf)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_nan)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_pscA)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_pscB)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__fp_round)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000002 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+LOAD ./Keypad.o
+LOAD ./LCD.o
+LOAD ./main.o
+START GROUP
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libc.a
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libatmega32.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1292
+ *(.vectors)
+ .vectors       0x0000000000000000       0x54 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000054                . = ALIGN (0x2)
+                0x0000000000000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000054        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000054                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000000000000054                . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000054                __ctors_start = .
+ *(.ctors)
+                0x0000000000000054                __ctors_end = .
+                0x0000000000000054                __dtors_start = .
+ *(.dtors)
+                0x0000000000000054                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000054        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000000000000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000054        0xc a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000060       0x16 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000000060                __do_copy_data
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000076        0x8 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000007e        0x4 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x000000000000007e                __vector_1
+                0x000000000000007e                __vector_12
+                0x000000000000007e                __bad_interrupt
+                0x000000000000007e                __vector_6
+                0x000000000000007e                __vector_3
+                0x000000000000007e                __vector_11
+                0x000000000000007e                __vector_13
+                0x000000000000007e                __vector_17
+                0x000000000000007e                __vector_19
+                0x000000000000007e                __vector_7
+                0x000000000000007e                __vector_5
+                0x000000000000007e                __vector_4
+                0x000000000000007e                __vector_9
+                0x000000000000007e                __vector_2
+                0x000000000000007e                __vector_15
+                0x000000000000007e                __vector_8
+                0x000000000000007e                __vector_14
+                0x000000000000007e                __vector_10
+                0x000000000000007e                __vector_16
+                0x000000000000007e                __vector_18
+                0x000000000000007e                __vector_20
+ .text          0x0000000000000082        0x0 ./Keypad.o
+ .text          0x0000000000000082        0x0 ./LCD.o
+ .text          0x0000000000000082        0x0 ./main.o
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x0000000000000082        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x0000000000000082                . = ALIGN (0x2)
+ *(.text.*)
+ .text.Keypad_INIT
+                0x0000000000000082       0x88 ./Keypad.o
+                0x0000000000000082                Keypad_INIT
+ .text.Keypad_Selected_char
+                0x000000000000010a      0x240 ./Keypad.o
+                0x000000000000010a                Keypad_Selected_char
+ .text.LCD_INIT
+                0x000000000000034a      0x356 ./LCD.o
+                0x000000000000034a                LCD_INIT
+ .text.LCD_E_on_E_off
+                0x00000000000006a0      0x182 ./LCD.o
+                0x00000000000006a0                LCD_E_on_E_off
+ .text.LCD_is_busy
+                0x0000000000000822       0xc8 ./LCD.o
+                0x0000000000000822                LCD_is_busy
+ .text.LCD_Send_Command
+                0x00000000000008ea      0x248 ./LCD.o
+                0x00000000000008ea                LCD_Send_Command
+ .text.LCD_Send_char
+                0x0000000000000b32      0x358 ./LCD.o
+                0x0000000000000b32                LCD_Send_char
+ .text.LCD_Send_string
+                0x0000000000000e8a      0x1b0 ./LCD.o
+                0x0000000000000e8a                LCD_Send_string
+ .text.main     0x000000000000103a       0x1e ./main.o
+                0x000000000000103a                main
+ .text.libgcc.mul
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000001058        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.avr-libc.fplib
+                0x0000000000001058        0xa a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x0000000000001058                __nesf2
+                0x0000000000001058                __eqsf2
+                0x0000000000001058                __cmpsf2
+                0x0000000000001058                __ltsf2
+                0x0000000000001058                __lesf2
+ .text.avr-libc.fplib
+                0x0000000000001062       0x5e a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x0000000000001062                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00000000000010c0       0x48 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00000000000010c0                __fp_cmp
+ .text.avr-libc.fplib
+                0x0000000000001108       0x44 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x0000000000001108                __fp_split3
+                0x0000000000001118                __fp_splitA
+ .text.avr-libc.fplib
+                0x000000000000114c        0xe a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x000000000000114c                __fp_zero
+                0x000000000000114e                __fp_szero
+ .text.avr-libc.fplib
+                0x000000000000115a        0xa a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x000000000000115a                __gesf2
+                0x000000000000115a                __gtsf2
+ .text.avr-libc.fplib
+                0x0000000000001164        0x8 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x0000000000001164                __mulsf3
+ .text.avr-libc.fplib
+                0x000000000000116c       0xd2 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x000000000000118a                __mulsf3x
+                0x0000000000001190                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x000000000000123e        0xc a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x000000000000123e                __fp_inf
+ .text.avr-libc.fplib
+                0x000000000000124a        0x6 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x000000000000124a                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000001250        0xe a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x0000000000001250                __fp_pscA
+ .text.avr-libc.fplib
+                0x000000000000125e        0xe a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x000000000000125e                __fp_pscB
+ .text.avr-libc.fplib
+                0x000000000000126c       0x22 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x000000000000126c                __fp_round
+                0x000000000000128e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000128e        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+                0x000000000000128e                _exit
+                0x000000000000128e                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000128e        0x4 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x0000000000001292                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x0000000000001292                _etext = .
+
+.data           0x0000000000800060       0x24 load address 0x0000000000001292
+                0x0000000000800060                PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .data          0x0000000000800060        0x0 ./Keypad.o
+ .data          0x0000000000800060        0x0 ./LCD.o
+ .data          0x0000000000800060        0x0 ./main.o
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ *(.data*)
+ .data.Keypad_Row
+                0x0000000000800060        0x8 ./Keypad.o
+                0x0000000000800060                Keypad_Row
+ .data.Keypad_Col
+                0x0000000000800068        0x8 ./Keypad.o
+                0x0000000000800068                Keypad_Col
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x0000000000800070       0x14 ./main.o
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800084                . = ALIGN (0x2)
+                0x0000000000800084                _edata = .
+                0x0000000000800084                PROVIDE (__data_end = .)
+
+.bss            0x0000000000800084        0x0
+                [!provide]                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .bss           0x0000000000800084        0x0 ./Keypad.o
+ .bss           0x0000000000800084        0x0 ./LCD.o
+ .bss           0x0000000000800084        0x0 ./main.o
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x0000000000800084        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ *(.bss*)
+ *(COMMON)
+                [!provide]                        PROVIDE (__bss_end = .)
+                0x0000000000001292                __data_load_start = LOADADDR (.data)
+                0x00000000000012b6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800084        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0000000000800084                _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x0000000000000000      0xe94
+ *(.stab)
+ .stab          0x0000000000000000      0x3a8 ./Keypad.o
+ .stab          0x00000000000003a8      0xa74 ./LCD.o
+                                        0xa80 (size before relaxing)
+ .stab          0x0000000000000e1c       0x78 ./main.o
+                                         0x84 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x331
+ *(.stabstr)
+ .stabstr       0x0000000000000000      0x331 ./Keypad.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 ./Keypad.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 ./LCD.o
+ .comment       0x0000000000000012       0x13 ./main.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_aranges
+                0x0000000000000020       0x20 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x52e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x4e6 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_info    0x00000000000004e6       0x24 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_info    0x000000000000050a       0x24 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+
+.debug_abbrev   0x0000000000000000      0x4cb
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4a3 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_abbrev  0x00000000000004a3       0x14 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000000000004b7       0x14 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+
+.debug_line     0x0000000000000000       0xf5
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_line    0x000000000000001d       0x51 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_line    0x000000000000006e       0x87 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x1f8
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x199 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_str     0x0000000000000199       0x5f a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_str     0x00000000000001f8       0x5f a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000       0x53
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0x53 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+                                         0x5f (size before relaxing)
+ .debug_line_str
+                0x0000000000000053       0x5f a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_copy_data.o)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(CCCCCCCCCCCCCCCC.elf elf32-avr)
+LOAD linker stubs

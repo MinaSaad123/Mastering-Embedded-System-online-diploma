@@ -1,0 +1,8 @@
+prefix=/home/mina/catkin_ws/devel
+
+Name: Chat_Package
+Description: Description of Chat_Package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

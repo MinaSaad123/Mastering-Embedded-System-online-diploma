@@ -1,0 +1,6 @@
+LCD.c:16:6:LCD_GPIO_Init	16	static
+LCD.c:82:6:LCD_Init	8	static
+LCD.c:115:6:LCD_E_on_E_off	8	static
+LCD.c:123:6:LCD_Send_Command	16	static
+LCD.c:153:6:LCD_Send_char	16	static
+LCD.c:182:6:LCD_Send_string	24	static

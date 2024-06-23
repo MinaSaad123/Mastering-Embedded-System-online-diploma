@@ -1,0 +1,500 @@
+Archive member included to satisfy reference by file (symbol)
+
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+                              a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o (exit)
+a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+                              ./Timer.o (__do_clear_bss)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000002 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+LOAD ./Timer.o
+LOAD ./WatchDogTimer.o
+LOAD ./main.o
+START GROUP
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libm.a
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libc.a
+LOAD a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5\libatmega32.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000      0x28c
+ *(.vectors)
+ .vectors       0x0000000000000000       0x54 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000054                . = ALIGN (0x2)
+                0x0000000000000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000054        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000054                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000000000000054                . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000054                __ctors_start = .
+ *(.ctors)
+                0x0000000000000054                __ctors_end = .
+                0x0000000000000054                __dtors_start = .
+ *(.dtors)
+                0x0000000000000054                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000054        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000000000000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000054        0xc a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000060       0x10 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000000060                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000070        0x8 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000078        0x4 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000000000000078                __vector_1
+                0x0000000000000078                __vector_12
+                0x0000000000000078                __bad_interrupt
+                0x0000000000000078                __vector_6
+                0x0000000000000078                __vector_3
+                0x0000000000000078                __vector_11
+                0x0000000000000078                __vector_13
+                0x0000000000000078                __vector_17
+                0x0000000000000078                __vector_19
+                0x0000000000000078                __vector_7
+                0x0000000000000078                __vector_5
+                0x0000000000000078                __vector_4
+                0x0000000000000078                __vector_9
+                0x0000000000000078                __vector_2
+                0x0000000000000078                __vector_15
+                0x0000000000000078                __vector_8
+                0x0000000000000078                __vector_14
+                0x0000000000000078                __vector_10
+                0x0000000000000078                __vector_16
+                0x0000000000000078                __vector_18
+                0x0000000000000078                __vector_20
+ .text          0x000000000000007c        0x0 ./Timer.o
+ .text          0x000000000000007c        0x0 ./WatchDogTimer.o
+ .text          0x000000000000007c        0x0 ./main.o
+ .text          0x000000000000007c        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x000000000000007c        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x000000000000007c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.MCAL_TIMER0_Init
+                0x000000000000007c       0xe6 ./Timer.o
+                0x000000000000007c                MCAL_TIMER0_Init
+ .text.MCAL_StopTimer0
+                0x0000000000000162       0x22 ./Timer.o
+                0x0000000000000162                MCAL_StopTimer0
+ .text.MCAL_TIMER0_GetCompareValue
+                0x0000000000000184       0x2a ./Timer.o
+                0x0000000000000184                MCAL_TIMER0_GetCompareValue
+ .text.MCAL_TIMER0_SetCompareValue
+                0x00000000000001ae       0x3a ./Timer.o
+                0x00000000000001ae                MCAL_TIMER0_SetCompareValue
+ .text.MCAL_TIMER0_GetCounterValue
+                0x00000000000001e8       0x2a ./Timer.o
+                0x00000000000001e8                MCAL_TIMER0_GetCounterValue
+ .text.MCAL_TIMER0_SetCounterValue
+                0x0000000000000212       0x3a ./Timer.o
+                0x0000000000000212                MCAL_TIMER0_SetCounterValue
+ .text.MCAL_WatchDogTimer_On
+                0x000000000000024c       0x1a ./WatchDogTimer.o
+                0x000000000000024c                MCAL_WatchDogTimer_On
+ .text.MCAL_WatchDogTimer_Off
+                0x0000000000000266       0x22 ./WatchDogTimer.o
+                0x0000000000000266                MCAL_WatchDogTimer_Off
+ .text.libgcc.mul
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000000288                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000000288        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+                0x0000000000000288                _exit
+                0x0000000000000288                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000000288        0x4 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x000000000000028c                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x000000000000028c                _etext = .
+
+.data           0x0000000000800060        0x0 load address 0x000000000000028c
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .data          0x0000000000800060        0x0 ./Timer.o
+ .data          0x0000000000800060        0x0 ./WatchDogTimer.o
+ .data          0x0000000000800060        0x0 ./main.o
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800060                . = ALIGN (0x2)
+                0x0000000000800060                _edata = .
+                [!provide]                        PROVIDE (__data_end = .)
+
+.bss            0x0000000000800060        0xe
+                0x0000000000800060                PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .bss           0x0000000000800060        0x0 ./Timer.o
+ .bss           0x0000000000800060        0x0 ./WatchDogTimer.o
+ .bss           0x0000000000800060        0x0 ./main.o
+ .bss           0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x0000000000800060        0x0 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ .bss.G_P_TIMER_Callback
+                0x0000000000800060        0x2 ./Timer.o
+                0x0000000000800060                G_P_TIMER_Callback
+ .bss.G_S_TIMER_CFG_t
+                0x0000000000800062        0xc ./Timer.o
+                0x0000000000800062                G_S_TIMER_CFG_t
+ *(COMMON)
+                0x000000000080006e                PROVIDE (__bss_end = .)
+                0x000000000000028c                __data_load_start = LOADADDR (.data)
+                0x000000000000028c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x000000000080006e        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x000000000080006e                _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x0000000000000000      0x480
+ *(.stab)
+ .stab          0x0000000000000000      0x384 ./Timer.o
+ .stab          0x0000000000000384       0xd8 ./WatchDogTimer.o
+                                         0xe4 (size before relaxing)
+ .stab          0x000000000000045c       0x24 ./main.o
+                                         0x30 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x39c
+ *(.stabstr)
+ .stabstr       0x0000000000000000      0x39c ./Timer.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 ./Timer.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 ./WatchDogTimer.o
+ .comment       0x0000000000000012       0x13 ./main.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_aranges
+                0x0000000000000020       0x20 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x52e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x4e6 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_info    0x00000000000004e6       0x24 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_info    0x000000000000050a       0x24 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+
+.debug_abbrev   0x0000000000000000      0x4cb
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4a3 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_abbrev  0x00000000000004a3       0x14 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000000000004b7       0x14 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+
+.debug_line     0x0000000000000000       0xe3
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_line    0x000000000000001d       0x51 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_line    0x000000000000006e       0x75 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x1f8
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x199 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .debug_str     0x0000000000000199       0x5f a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+ .debug_str     0x00000000000001f8       0x5f a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000       0x53
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0x53 a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_exit.o)
+                                         0x5f (size before relaxing)
+ .debug_line_str
+                0x0000000000000053       0x5f a:/toolchain/avr_toolchain/bin/../lib/gcc/avr/12.1.0/avr5\libgcc.a(_clear_bss.o)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(Atmega32_Timer_Driver.elf elf32-avr)
+LOAD linker stubs

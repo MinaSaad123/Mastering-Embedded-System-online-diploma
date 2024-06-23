@@ -1,0 +1,1879 @@
+DC_init 
+US_init 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 52  
+ US----------distance = 52 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 52, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 53  
+ US----------distance = 53 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 53, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 46  
+ US----------distance = 46 ------------>CA
+CA_waiting state: distance = 46, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 47  
+ US----------distance = 47 ------------>CA
+CA_waiting state: distance = 47, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ------------>CA
+CA_waiting state: distance = 48, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 49  
+ US----------distance = 49 ------------>CA
+CA_waiting state: distance = 49, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 45  
+ US----------distance = 45 ------------>CA
+CA_waiting state: distance = 45, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 50  
+ US----------distance = 50 ------------>CA
+CA_waiting state: distance = 50, speed = 0
+CA---------speed = 0------>DC
+DC_idle State: speed=0 
+US_busy State: distance = 54  
+ US----------distance = 54 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 54, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 51  
+ US----------distance = 51 ------------>CA
+CA---------speed = 30------>DC
+CA_driving state: distance = 51, speed = 30
+DC_idle State: speed=30 
+US_busy State: distance = 48  
+ US----------distance = 48 ----

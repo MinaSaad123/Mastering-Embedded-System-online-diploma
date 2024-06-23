@@ -1,0 +1,115 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+SRAM             0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.TEXT           0x08000000      0x1a4
+ *(.VECTORS*)
+ .VECTORS       0x08000000       0x1c startup.o
+                0x08000000                vectors
+ *(.text*)
+ .text          0x0800001c       0xe8 startup.o
+                0x0800001c                RESET
+                0x080000f8                BUS_FAULT
+                0x080000f8                DEFAULT_HANDLER
+                0x080000f8                NMI
+                0x080000f8                USGE_FAULT
+                0x080000f8                MEM_MANAGE
+                0x080000f8                HARD_FAULT
+ .text          0x08000104       0xa0 led_toggle.o
+                0x08000104                main
+ *(.rodata)
+                0x080001a4                E_TEXT = .
+
+.glue_7         0x080001a4        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x080001a4        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x080001a4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x080001a4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x080001a4        0x0
+ .iplt          0x00000000        0x0 startup.o
+
+.igot.plt       0x080001a4        0x0
+ .igot.plt      0x00000000        0x0 startup.o
+
+.rel.dyn        0x080001a4        0x0
+ .rel.iplt      0x00000000        0x0 startup.o
+
+.DATA           0x20000000        0x4 load address 0x080001a4
+                0x20000000                S_DATA = .
+ *(.data*)
+ .data          0x20000000        0x0 startup.o
+ .data          0x20000000        0x4 led_toggle.o
+                0x20000000                R_ODR
+                0x20000004                E_DATA = .
+
+.BSS            0x20000004      0x3ec load address 0x080001a8
+                0x20000004                S_BSS = .
+ *(.bss*)
+ .bss           0x20000004        0x4 startup.o
+                0x20000004                i
+ .bss           0x20000008        0x0 led_toggle.o
+                0x20000008                E_BSS = .
+                0x200003f0                . = (. + 0x3e8)
+ *fill*         0x20000008      0x3e8 
+                0x200003f0                STACK_TOP = .
+LOAD startup.o
+LOAD led_toggle.o
+OUTPUT(led_toggle_arm_versatile.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x26d
+ .debug_info    0x00000000      0x16c startup.o
+ .debug_info    0x0000016c      0x101 led_toggle.o
+
+.debug_abbrev   0x00000000      0x167
+ .debug_abbrev  0x00000000       0xc4 startup.o
+ .debug_abbrev  0x000000c4       0xa3 led_toggle.o
+
+.debug_loc      0x00000000       0x9c
+ .debug_loc     0x00000000       0x64 startup.o
+ .debug_loc     0x00000064       0x38 led_toggle.o
+
+.debug_aranges  0x00000000       0x40
+ .debug_aranges
+                0x00000000       0x20 startup.o
+ .debug_aranges
+                0x00000020       0x20 led_toggle.o
+
+.debug_line     0x00000000      0x164
+ .debug_line    0x00000000       0xb9 startup.o
+ .debug_line    0x000000b9       0xab led_toggle.o
+
+.debug_str      0x00000000      0x144
+ .debug_str     0x00000000      0x10c startup.o
+                                0x153 (size before relaxing)
+ .debug_str     0x0000010c       0x38 led_toggle.o
+                                0x10f (size before relaxing)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 startup.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 led_toggle.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 startup.o
+ .ARM.attributes
+                0x00000033       0x33 led_toggle.o
+
+.debug_frame    0x00000000       0x78
+ .debug_frame   0x00000000       0x4c startup.o
+ .debug_frame   0x0000004c       0x2c led_toggle.o
